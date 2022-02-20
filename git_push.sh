@@ -4,7 +4,7 @@
 #git add README.md
 #git commit -m "first commit"
 #git branch -M main
-git remote add origin https://github.com/mopikao/mopikao.github.io.git
+#git remote add origin https://github.com/mopikao/mopikao.github.io.git
 #git push -u origin main
 
 cp -i -v /c/Users/mopik/PycharmProjects/TideScrape/historicalTide.json /c/Users/mopik/PycharmProjects/mopikao.github.io/tideData
@@ -22,4 +22,4 @@ git add tideData/
 
 git commit -m "$dateStarted"
 
-git push origin master
+git push origin HEAD:master
